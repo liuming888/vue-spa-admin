@@ -37,7 +37,7 @@
     <div class="logo-box">淘buybuy</div>
     <div class="platform-management">平台管理</div>
     <div class="account-settings">账号设置</div>
-    <div class="log-out">退出登录</div>
+    <div class="log-out" @click="$router.replace('/login')">退出登录</div>
   </div>
 </template>
 
