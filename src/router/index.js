@@ -7,6 +7,11 @@ export default new Router({
     mode: 'history',
     base: process.env.BASE_URL,
     routes: [
+        {
+            path: '/login',
+            name: '登录',
+            component: () => import('../views/login/index.vue'),
+        },
         { path: '*', redirect: '/workbench' },
         {
             path: '/workbench',

@@ -4,7 +4,10 @@
 
 <template>
   <div id="app">
-    <appLayout></appLayout>
+    <appLayout v-if="$route.path!=='/login'"></appLayout>
+    <template v-else>
+        <router-view></router-view>
+    </template>
   </div>
 </template>
 
