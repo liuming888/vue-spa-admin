@@ -1,0 +1,237 @@
+@charset "utf-8";
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    /*word-break:break-all;*/
+    word-wrap: break-word;
+    font-family: SF UI Display, Open Sans, PingFangSC, Helvetica, Arial, sans-serif, Tahoma;
+    // -webkit-user-select: none;
+}
+input {
+    white-space: nowrap;
+    -webkit-appearance: normal;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+* {
+    background-repeat: no-repeat;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+img {
+    border: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    pointer-event: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    tap-highlight-color: rgba(0, 0, 0, 0);
+    focus-ring-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-focus-ring-color: rgba(0, 0, 0, 0);
+    -moz-tap-highlight-color: rgba(0, 0, 0, 0);
+    -moz-focus-ring-color: rgba(0, 0, 0, 0);
+}
+.clearfix:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    zoom: 1;
+}
+
+.wrap {
+    max-width: 7.5rem;
+    left: 50% !important;
+    margin-left: -3.75rem !important;
+}
+
+img {
+    width: 100%;
+}
+input,
+button {
+    outline: none;
+    border: 0;
+}
+
+input,
+button,
+textarea,
+select,
+optgroup,
+option {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.showregular {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    overflow: hidden;
+    //max-height: 60px/$ppr;
+    //overflow: hidden;
+}
+.showregular-one {
+    white-space: nowrap; /* 不换行 */
+    overflow: hidden; /* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow: ellipsis; /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+.background {
+    background-repeat: no-repeat;
+}
+
+.del {
+    text-decoration: line-through;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+.rotate180deg {
+    transform: rotate(180deg);
+}
+.rotate90deg {
+    transform: rotate(90deg);
+}
+.rotate0deg {
+    transform: rotate(0deg);
+}
+//按钮变灰
+.invalid {
+    background-color: #ccc !important;
+}
+.a-button {
+    color: #0000ff;
+    &:hover {
+        // text-decoration: underline;
+        cursor: pointer;
+    }
+}
